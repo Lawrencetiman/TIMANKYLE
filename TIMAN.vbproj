@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>TIMAN</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="timan.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="timan.html" />
+  </ItemGroup>
+
+</Project>
